@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.navbar {
+  background-color: #df2407;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+#navbar__logo {
+  //   //   background-color: #93cc93;
+  background-image: linear-gradient(to top, #ffdd00 0%, #ffec7f 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  moz-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.fa-chess-rook {
+  background-image: linear-gradient(to top, #ffdd00 0%, #ffec7f 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  margin-right: 1rem;
+  transform: translateY(-10%);
+}
+
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar__link {
+  color: #ffdd00;
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+.button {
+  background: #ffdd00;
+  padding: 13px;
+  border-radius: 4px;
+  display: flex;
+  color: #df2407;
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.button:hover {
+  background: white;
+  transition: all 1s ease;
+}
+
+.navbar__link:hover {
+  color: white;
+  transition: all 1s ease;
+}
+
+.hero {
+  background-color: #df2407;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.hero__content h1 {
+  background-image: linear-gradient(to top, #ffdd00 0%, #ffec7f 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  moz-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 4rem;
+}
+
+.hero__content h2 {
+  background-image: linear-gradient(to top, #ffdd00 0%, #ffec7f 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  moz-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 4rem;
+}
